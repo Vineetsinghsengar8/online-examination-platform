@@ -1,8 +1,6 @@
 
   # Online Examination System
 
-  This is a code bundle for Online Examination System. The original project is available at https://www.figma.com/design/godCJa45VAGtQG6mq9eU7R/Online-Examination-System.
-
   ## Running the code
 
   Frontend:
