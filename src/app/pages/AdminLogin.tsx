@@ -5,8 +5,8 @@ import { toast } from 'sonner';
 export const AdminLogin: React.FC<{ onLoginSuccess: () => void; onCancel: () => void }> = ({ onLoginSuccess, onCancel }) => {
   const { loginAdminWithCredentials } = useExam();
   // Prefill dev/admin shortcut credentials for convenience
-  const [email, setEmail] = useState('admin123@gmail.com');
-  const [password, setPassword] = useState('admin123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
